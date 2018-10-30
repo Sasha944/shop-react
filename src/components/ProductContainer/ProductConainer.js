@@ -2,6 +2,7 @@ import React from "react";
 import {productPropTypes} from "../../common/propTypes";
 import {arrayOf} from "prop-types";
 import ProductView from "../ProductView/ProductView"
+import "./ProductContainer.css";
 
 export const ProductContainer = ({match:{params}, productList, updateProduct,handleShowMessageClick,handleCloseModal,showModal}) => {
     const product = productList.find(({id}) => Number(params.id) === id);

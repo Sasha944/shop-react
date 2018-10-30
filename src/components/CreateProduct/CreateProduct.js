@@ -32,11 +32,11 @@ const CreateProduct = ({ handleShowMessageClick,handleCloseModal,onSubmit}) => {
                 }}
             >
                 <form action="" onSubmit={onSubmit}>
-                    <input type="text" name="title" placeholder="title"/>
-                    <input type="text" name="image" placeholder="image"/>
-                    <input type="number" name="price" placeholder="price"/>
-                    <textarea name="description" placeholder="description"/>
-                    <input type="number" placeholder="id" name="id"/>
+                    <div><input type="text" name="title" placeholder="title"/></div>
+                    <div><input type="text" name="image" placeholder="image"/></div>
+                    <div><input type="number" name="price" placeholder="price"/></div>
+                    <div><textarea name="description" placeholder="description"/></div>
+                    <div><input type="number" placeholder="id" name="id"/></div>
                     <button>
                         Save
                     </button>

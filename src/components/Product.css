@@ -1,0 +1,25 @@
+.product-item {
+    display: flex;
+    justify-content: space-between;
+}
+.product-item .product-item-link {
+    font-size: 18px;
+    color: #5595f5;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    text-decoration: none;
+}
+.product-item .product-item-link:hover {
+    color: #2a64bb;
+}
+.product-item .action-remove{
+    text-decoration: none;
+    color: #202c5d;
+    font-weight: 500;
+}
+.product-item .action-remove:hover {
+    color: #000;
+}

@@ -3,6 +3,7 @@ import {Link, Route} from "react-router-dom";
 import {routes} from "./routes";
 import {AdminPage} from "./scenes/admin/index";
 import {products} from "./data/product";
+import  "./App.css";
 
 const getProducts = async () => products;
 
