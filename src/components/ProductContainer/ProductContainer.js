@@ -1,12 +1,13 @@
 import React from "react";
-import {productPropTypes} from "../../common/propTypes";
 import {arrayOf} from "prop-types";
 import ProductView from "../ProductView/ProductView"
 import "./ProductContainer.css";
 
-export const ProductContainer = ({match:{params}, productList, updateProduct,handleShowMessageClick,handleCloseModal,showModal}) => {
+const ProductContainer = ({match:{params}, productList, updateProduct,handleShowMessageClick,handleCloseModal,showModal, isAdmin}) => {
     const product = productList.find(({id}) => Number(params.id) === id);
-    return <ProductView showModal={showModal} handleShowMessageClick={handleShowMessageClick} params={params} handleCloseModal={handleCloseModal} {...product} onSubmit={event => {
+    console.log(isAdmin);
+    return (
+        <ProductView showModal={showModal} handleShowMessageClick={handleShowMessageClick} isAdmin={isAdmin} params={params} handleCloseModal={handleCloseModal} {...product} onSubmit={event => {
 
         event.preventDefault();
         const data = Object.values(event.target).reduce((acc,current) => {
@@ -22,11 +23,8 @@ export const ProductContainer = ({match:{params}, productList, updateProduct,han
         data.id = Number(params.id);
         updateProduct(data);
     }
-    }/>
-};
+    }/>)
+}
 
-ProductContainer.propTypes = {
-    productList: arrayOf(productPropTypes).isRequired
-};
 
 export default ProductContainer;
