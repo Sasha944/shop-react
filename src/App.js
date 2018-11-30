@@ -1,11 +1,10 @@
 import React, {Component} from 'react';
-import { Route, NavLink } from "react-router-dom";
+import { Route } from "react-router-dom";
 import {routes} from "./routes";
 import { AdminPage } from "./scenes/admin/admin";
 import { UserPage } from "./scenes/user/user";
 import {products} from "./data/product";
 import  "./App.css";
-import ProductContainer from "./components/ProductContainer/ProductContainer";
 
 const getProducts = async () => products;
 
@@ -87,19 +86,6 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <nav>
-                <ul className="navigation">
-                    <li>
-                        <NavLink to= { routes.home } > Home </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to= { routes.admin } > Admin </NavLink>
-                    </li>
-                    <li>
-                        <NavLink to= { routes.user } > User </NavLink>
-                    </li>
-                </ul>
-                </nav>
                 <Route path={ routes.admin }
                 render={ (renderProps) =>
                     ( <AdminPage
@@ -114,7 +100,7 @@ class App extends Component {
                     showModalAddProduct={this.state.showModalAddProduct}
                     onProductRemoveClick={this.onProductRemoveClick}
                     {...renderProps} />)} />
-                <Route path={ routes.user }
+                <Route path= {routes.user} exect
                        render={ (renderProps) =>
                            ( <UserPage
                                productList={this.state.products}

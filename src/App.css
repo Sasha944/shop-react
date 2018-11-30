@@ -2,3 +2,15 @@
   max-width: 1200px;
   margin: 20px auto;
 }
+.logo-img {
+  max-width: 200px;
+  max-height: 100px;
+}
+.navigation {
+  list-style: none;
+  padding: 0;
+}
+.navigation li {
+  display: inline-block;
+  vertical-align: middle;
+}

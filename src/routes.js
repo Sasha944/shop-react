@@ -3,5 +3,7 @@ export const routes = {
     user: "/user",
     adminProduct: "/admin/product/:id",
     userProduct: "/user/product/:id",
-    home: "/"
+    home: "/",
+    contactUs: "/user/countact-us",
+    aboutUs: "/user/about-us"
 };

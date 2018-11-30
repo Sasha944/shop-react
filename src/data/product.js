@@ -5,7 +5,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 200,
     },
     {
         id: 1,
@@ -13,7 +13,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 320,
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 340,
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 450,
     },
     {
         id: 4,
@@ -37,7 +37,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 512,
     },
     {
         id: 5,
@@ -45,7 +45,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 700,
     },
     {
         id: 6,
@@ -53,7 +53,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 820,
     },
     {
         id: 7,
@@ -61,7 +61,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 991,
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 1050,
     },
     {
         id: 9,
@@ -77,7 +77,7 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 1079,
     },
     {
         id: 10,
@@ -85,6 +85,6 @@ export const products  = [
         description:
             'Екран Retina 4" (1136x640), ємнісний Multi-Touch / моноблок / двоядерний Apple A7 (1.3 ГГц) / ОЗП 1 ГБ / основна камера 8 Мп, фронтальна 1.2 Мп / Bluetooth 4.0 / Wi-Fi 802.11a/b/g/n / A-GPS / GLONASS / 32 ГБ вбудованої памяті / розєм 3.5 мм ',
         image: 'https://hotline.ua/img/tx/862/862504_s265.jpg',
-        price: 8457,
+        price: 1200,
     },
 ];

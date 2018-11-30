@@ -1,11 +1,12 @@
 import React from "react";
 import {arrayOf} from "prop-types";
 import PropTypes from 'prop-types';
-import {Route} from "react-router-dom";
+import { Route } from "react-router-dom";
 import {routes} from "../../routes";
 import {Product} from "../../components/Product";
 import ProductContainer from "../../components/ProductContainer/ProductContainer";
 import CreateProduct from "../../components/CreateProduct/CreateProduct";
+import  Navigation   from "../../components/navigation/Navigation"
 
 export const AdminPage = ({
                               match,
@@ -23,6 +24,9 @@ export const AdminPage = ({
                           }) => {
     return (
         <>
+            <header>
+                <Navigation />
+            </header>
             <Route
                 path={match.path}
                 exact

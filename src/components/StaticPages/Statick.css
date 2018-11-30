@@ -1,0 +1,31 @@
+.contact-us {
+    max-width: 600px;
+    margin: auto;
+}
+.label {
+    display: block;
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.field input {
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+.field textarea {
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+.actions {
+    margin: 10px 0;
+}

@@ -1,10 +1,13 @@
 .product-item {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    width: 30%;
+    margin: 30px 5px;
+    text-align: center;
 }
 .product-item .product-item-link {
-    font-size: 18px;
-    color: #5595f5;
+    font-size: 24px;
+    color: #000;
+    margin: 10px 0;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -ms-transition: .3s;
@@ -22,4 +25,13 @@
 }
 .product-item .action-remove:hover {
     color: #000;
+}
+.price-box {
+    display: block;
+    text-align: center;
+}
+.price-box .price {
+    font-size: 22px;
+    color: #000;
+    font-weight: bold;
 }
